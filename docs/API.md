@@ -53,7 +53,7 @@ Dequeues the element with the highest priority and returns it
 Returns the number of elements in the priority queue
 
 **Kind**: instance method of [<code>PriorityQueue</code>](#PriorityQueue)  
-**Returns**: <code>number</code> - The size of the prioriy queue  
+**Returns**: <code>number</code> - The size of the priority queue  
 <a name="PriorityQueue+isEmpty"></a>
 
 ### priorityQueue.isEmpty() ⇒ <code>boolean</code>
@@ -71,7 +71,7 @@ Merges two PriorityQueue's into a new one.
 
 | Param | Type | Description |
 | --- | --- | --- |
-| q1 | [<code>PriorityQueue</code>](#PriorityQueue) | the first priority queues |
+| q1 | [<code>PriorityQueue</code>](#PriorityQueue) | the first priority queue |
 | q2 | [<code>PriorityQueue</code>](#PriorityQueue) | the second priority queue |
 | comparator | <code>function</code> | A custom comparator function. If none is provied, the new priority queue will use the default comparator. |
 
