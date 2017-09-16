@@ -3,6 +3,7 @@ Priority Queue
 
 [![Build Status](https://travis-ci.org/MarkoN95/priority-queue.svg)](https://travis-ci.org/MarkoN95/priority-queue)
 [![dependencies Status](https://david-dm.org/markon95/priority-queue/status.svg)](https://david-dm.org/markon95/priority-queue)
+[![npm version](https://badge.fury.io/js/%40markon95%2Fpriority-queue.svg)](https://badge.fury.io/js/%40markon95%2Fpriority-queue)
 
 A priority queue implemented with a binary heap
 
