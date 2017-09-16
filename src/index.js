@@ -1,5 +1,4 @@
 const Heap = require("@markon95/heap");
-const Arr = Array.prototype;
 
 const isArrayLike = function isArrayLike(o) { // https://stackoverflow.com/a/24048615
   return(
@@ -59,7 +58,7 @@ const PriorityQueue = function PriorityQueue(other, comparator) {
 
   if(other instanceof PriorityQueue) {
     this._cmp = other._cmp;
-    this._heap = new Heap(other._heap, other._cmp)
+    this._heap = new Heap(other._heap, other._cmp);
   }
   else if(isArrayLike(other)) {
     if(typeof comparator === "function") {
@@ -76,7 +75,7 @@ const PriorityQueue = function PriorityQueue(other, comparator) {
 
 /**
 * Merges two PriorityQueue's into a new one.
-* @param {PriorityQueue} q1 the first priority queues
+* @param {PriorityQueue} q1 the first priority queue
 * @param {PriorityQueue} q2 the second priority queue
 * @param {Function} comparator A custom comparator function. If none is provied,
 * the new priority queue will use the default comparator.
@@ -123,7 +122,7 @@ PriorityQueue.prototype.dequeue = function() {
 
 /**
 * Returns the number of elements in the priority queue
-* @returns {number} The size of the prioriy queue
+* @returns {number} The size of the priority queue
 */
 PriorityQueue.prototype.size = function() {
   return this._heap.size();
