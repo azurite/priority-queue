@@ -55,7 +55,7 @@ const PriorityQueue = function PriorityQueue(other, comparator) {
   }
 
   this._cmp = defaultCmp;
-  this._heap = new Heap();
+  this._heap = new Heap(this._cmp);
 
   if(other instanceof PriorityQueue) {
     this._cmp = other._cmp;
