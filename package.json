@@ -4,7 +4,8 @@
   "description": "A priority queue implemented with a binary heap",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "docs": "jsdoc2md src/index.js > docs/API.md"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/MarkoN95/priority-queue#readme",
   "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0",
     "mocha": "^3.5.3"
   },
   "dependencies": {
