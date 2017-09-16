@@ -6,6 +6,10 @@ const PATHS = {
   lib: path.join(__dirname, "lib")
 };
 
+const DEPENDENCIES = [
+  path.join(__dirname, "node_modules", "@markon95", "heap")
+];
+
 function umd({ minify } = {}) {
   const config = {
     entry: PATHS.entry,
@@ -13,13 +17,13 @@ function umd({ minify } = {}) {
       path: PATHS.lib,
       filename: minify ? "priority-queue.min.js" : "priority-queue.js",
       libraryTarget: "umd",
-      library: "Heap"
+      library: "PriorityQueue"
     },
     module: {
       rules: [
         {
           test: /\.js$/,
-          include: PATHS.entry,
+          include: [PATHS.entry, ...DEPENDENCIES],
           loader: "babel-loader"
         }
       ]
