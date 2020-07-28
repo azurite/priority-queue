@@ -1,6 +1,6 @@
 {
   "name": "@darkblue_azurite/priority-queue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A priority queue implemented with a binary heap",
   "main": "src/index.js",
   "scripts": {
