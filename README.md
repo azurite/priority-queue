@@ -1,9 +1,9 @@
 Priority Queue
 ==============
 
-[![Build Status](https://travis-ci.org/MarkoN95/priority-queue.svg)](https://travis-ci.org/MarkoN95/priority-queue)
-[![dependencies Status](https://david-dm.org/markon95/priority-queue/status.svg)](https://david-dm.org/markon95/priority-queue)
-[![npm version](https://badge.fury.io/js/%40markon95%2Fpriority-queue.svg)](https://badge.fury.io/js/%40markon95%2Fpriority-queue)
+[![Build Status](https://travis-ci.org/azurite/priority-queue.svg)](https://travis-ci.org/azurite/priority-queue)
+[![dependencies Status](https://david-dm.org/azurite/priority-queue/status.svg)](https://david-dm.org/azurite/priority-queue)
+[![npm version](https://badge.fury.io/js/%40darkblue_azurite%2Fpriority-queue.svg)](https://badge.fury.io/js/%40darkblue_azurite%2Fpriority-queue)
 
 A priority queue implemented with a binary heap
 
@@ -13,13 +13,13 @@ Installation
 For node js:
 
 ```
-npm install --save @markon95/priority-queue
+npm install --save @darkblue_azurite/priority-queue
 ```
 
 then require it:
 
 ```js
-var PriorityQueue = require("@markon95/priority-queue");
+var PriorityQueue = require("@darkblue_azurite/priority-queue");
 ```
 
 To use the library directly in the browser, copy the `priority-queue.js` file from the lib

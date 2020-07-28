@@ -1,5 +1,5 @@
 {
-  "name": "@markon95/priority-queue",
+  "name": "@darkblue_azurite/priority-queue",
   "version": "1.0.2",
   "description": "A priority queue implemented with a binary heap",
   "main": "src/index.js",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarkoN95/priority-queue.git"
+    "url": "git+https://github.com/azurite/priority-queue.git"
   },
   "keywords": [
     "priority",
     "queue"
   ],
-  "author": "MarkoN95",
+  "author": "darkblue_azurite",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MarkoN95/priority-queue/issues"
+    "url": "https://github.com/azurite/priority-queue/issues"
   },
-  "homepage": "https://github.com/MarkoN95/priority-queue#readme",
+  "homepage": "https://github.com/azurite/priority-queue#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -31,6 +31,6 @@
     "webpack": "^3.6.0"
   },
   "dependencies": {
-    "@markon95/heap": "^1.0.4"
+    "@azurite/heap": "^1.0.5"
   }
 }
