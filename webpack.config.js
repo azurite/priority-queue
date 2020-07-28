@@ -7,7 +7,7 @@ const PATHS = {
 };
 
 const DEPENDENCIES = [
-  path.join(__dirname, "node_modules", "@markon95", "heap")
+  path.join(__dirname, "node_modules", "@darkblue_azurite", "heap")
 ];
 
 function umd({ minify } = {}) {

@@ -1,4 +1,4 @@
-const Heap = require("@markon95/heap");
+const Heap = require("@darkblue_azurite/heap");
 
 const isArrayLike = function isArrayLike(o) { // https://stackoverflow.com/a/24048615
   return(
