@@ -31,6 +31,6 @@
     "webpack": "^3.6.0"
   },
   "dependencies": {
-    "@azurite/heap": "^1.0.5"
+    "@darkblue_azurite/heap": "^1.0.5"
   }
 }
